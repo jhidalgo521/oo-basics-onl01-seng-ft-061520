@@ -8,9 +8,10 @@ class Shoe
       @brand = brand
     end
  
-    def turn_page
-      puts "Flipping the page...wow, you read fast!"
-    end
+    def cobble()
+    self.condition = "new"
+    puts "Your shoe is as good as new!"
+  end
 
   
 end 
